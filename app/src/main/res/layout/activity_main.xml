@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg11"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        >
+        <TextView
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Small Game"
+            android:textColor="#FFFFFF"
+            android:textSize="70dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="20dp"
+            />
+
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="380dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/border"
+            android:text="START"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_below="@id/banner"
+            />
+
+        <Button
+            android:id="@+id/resultButton"
+            android:layout_width="380dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/border"
+            android:text="RESULT"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_below="@id/startButton"
+            />
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="380dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/border"
+            android:text="EXIT"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_below="@id/resultButton"
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

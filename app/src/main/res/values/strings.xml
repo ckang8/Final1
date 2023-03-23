@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Final1</string>
+    <string name="timer">Timer:</string>
+    <string name="level1">Level 1</string>
+    <string name="level2">Level 2</string>
+    <string name="level3">Level 3</string>
+    <string name="level4">Level 4</string>
+    <string name="level5">Level 5</string>
+    <string name="score">score: </string>
+    <string name="col1"> ScoreBoard </string>
+    <string name="col2">Name </string>
+    <string name="col3">Score </string>
+
+</resources>
